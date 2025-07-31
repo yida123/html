@@ -512,7 +512,8 @@ window.EZ_CONFIG = {
     type: 'crisp',
     
     // 客服系统JS代码，请将您的客服系统提供的嵌入代码粘贴在这里
-    customHtml: '',
+    customHtml: '<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="63213e79-2ff9-4ff5-9d72-793fc5d94a6c";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+<script type="text/javascript" src="https://ai.haruka.cloud/intro.js"></script>',
     
     // 客服系统嵌入模式: 'popup'=弹出式页面, 'embed'=嵌入到每个页面
     // 'popup'模式: 点击客服图标会跳转到单独的客服页面
